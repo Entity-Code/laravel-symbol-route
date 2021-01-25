@@ -9,18 +9,16 @@
 </head>
 <body>
 
+    {{-- header --}}
     @include("components.header")
-
-    <div class="content">
-        Hello World!
-        @yield('content')
-    </div>
-
     
-
+    {{-- content --}}
+    @yield('home')
+    @yield('blog')
+    @yield('about')
+        
+    {{-- footer --}}
     @include("components.footer")
-
-
 
 
 </body>
