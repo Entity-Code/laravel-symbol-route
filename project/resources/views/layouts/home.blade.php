@@ -11,12 +11,9 @@
 
     {{-- header --}}
     @include("components.header")
-    
     {{-- content --}}
-    @yield('home')
-    @yield('blog')
-    @yield('about')
-        
+    @yield('pagamenti')
+    @yield('pending') 
     {{-- footer --}}
     @include("components.footer")
 

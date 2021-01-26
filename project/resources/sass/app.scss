@@ -48,6 +48,7 @@ body{
 }
 
 footer{
+    margin-top: 25px;
     display: flex;
     justify-content: space-around;
     border: 2px double white;
@@ -55,9 +56,6 @@ footer{
     min-height: 250px;
     flex-flow: nowrap row;
     padding: 10px;
-    position:absolute;
-    bottom:0;
-    width:100%;
     ul{
         display: flex;
         flex-flow: nowrap column;
@@ -70,4 +68,11 @@ footer{
         }
     }
     
+}
+
+.red{
+    background: red;
+}
+.green{
+    background: green;
 }

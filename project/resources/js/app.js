@@ -1,6 +1,6 @@
 require('./bootstrap');
 
 function init() {
-    console.log("Hello World in js !");
+    console.log("Hello World");
 }
 init();

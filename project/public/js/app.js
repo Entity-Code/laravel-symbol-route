@@ -19333,7 +19333,7 @@ module.exports = function(module) {
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 function init() {
-  console.log("Hello World in js !");
+  console.log("Hello World");
 }
 
 init();

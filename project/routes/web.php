@@ -1,14 +1,11 @@
 <?php
+
 use Illuminate\Support\Facades\Route;
 
 
+Route::get('/', 'MainController@showPagamenti')
+    -> name('pagamenti');
 
-Route::get('/', 'MainController@showHome')
-    -> name('home');
+Route::get('/pagamenti-pending', 'MainController@showPagamentiPending')
+    -> name('pending');
 
-
-Route::get('/blog', 'MainController@showBlog')
-    -> name('blog');
-
-Route::get('/about', 'MainController@showAbout')
-    -> name('about');

@@ -1,9 +1,8 @@
 <header>
     <nav id="navbar">
         <ul>
-            <li><a href="/">HOME</a></li>
-            <li><a href="blog">BLOG</a></li>
-            <li><a href="about">ABOUT</a></li>
+            <li><a href="{{route('pagamenti')}}">PAGAMENTI</a></li>
+            <li><a href="{{route('pending')}}">PAGAMENTI PENDING</a></li>
         </ul>
     </nav>
 </header>
